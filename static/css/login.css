@@ -1,13 +1,18 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:Arial, Helvetica, sans-serif;
-}
-
 body{
 
-    background:#eef4ff;
+    margin:0;
+
+    font-family:Arial, Helvetica, sans-serif;
+
+    background:#edf4ff;
+
+}
+
+.left-panel{
+
+    background:linear-gradient(135deg,#0F172A,#2563EB);
+
+    color:white;
 
     display:flex;
 
@@ -15,103 +20,89 @@ body{
 
     align-items:center;
 
-    height:100vh;
-
-}
-
-.login-container{
-
-    width:420px;
-
-    background:white;
-
-    padding:40px;
-
-    border-radius:18px;
-
-    box-shadow:0 10px 30px rgba(0,0,0,.15);
-
-}
-
-.logo{
-
     text-align:center;
 
-    margin-bottom:30px;
+    padding:60px;
 
 }
 
-.logo h1{
+.left-panel h1{
 
-    color:#1d4ed8;
-
-    margin-bottom:10px;
-
-}
-
-.logo p{
-
-    color:#666;
-
-}
-
-label{
-
-    display:block;
-
-    margin-top:15px;
-
-    margin-bottom:8px;
+    font-size:55px;
 
     font-weight:bold;
 
 }
 
-input{
+.left-panel h3{
 
-    width:100%;
+    margin-top:20px;
 
-    padding:12px;
+    font-size:28px;
 
-    border:1px solid #ccc;
+}
 
-    border-radius:10px;
+.left-panel p{
 
-    margin-bottom:10px;
+    margin-top:25px;
+
+    font-size:18px;
+
+    line-height:30px;
+
+}
+
+.login-card{
+
+    background:white;
+
+    width:430px;
+
+    padding:45px;
+
+    border-radius:20px;
+
+    box-shadow:0 20px 40px rgba(0,0,0,.15);
+
+}
+
+.login-card h2{
+
+    text-align:center;
+
+    color:#1E3A8A;
+
+}
+
+.login-card p{
+
+    text-align:center;
+
+    color:gray;
+
+    margin-bottom:35px;
+
+}
+
+label{
+
+    font-weight:bold;
 
 }
 
 button{
 
-    width:100%;
+    margin-top:15px;
 
-    margin-top:20px;
+    padding:12px;
 
-    padding:14px;
-
-    border:none;
-
-    border-radius:10px;
-
-    background:#2563eb;
-
-    color:white;
-
-    font-size:16px;
-
-    cursor:pointer;
-
-}
-
-button:hover{
-
-    background:#1d4ed8;
+    font-size:18px;
 
 }
 
 .links{
 
-    margin-top:20px;
+    margin-top:25px;
 
     display:flex;
 
@@ -122,9 +113,5 @@ button:hover{
 .links a{
 
     text-decoration:none;
-
-    color:#2563eb;
-
-    font-size:14px;
 
 }
